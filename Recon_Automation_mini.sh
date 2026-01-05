@@ -89,6 +89,9 @@ cat > "$REPORT" <<EOF
 <h2>Subdomain → IP Map</h2>
 <pre>$(cat "$BASE_DIR/subdomain_ip_map.csv")</pre>
 
+<h2>Unique IPs</h2>
+<pre>$(cat "$BASE_DIR/unique_ips.txt")</pre>
+
 <h2>Nmap Results (Top 1–1000 Ports)</h2>
 <pre>$(cat "$BASE_DIR/nmap_results.txt")</pre>
 
